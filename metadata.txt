@@ -1,0 +1,27 @@
+[general]
+name=DevPluginRefresher
+about=Quickly reload any installed Python plugin with a custom dialog, auto‑reload options, and detailed logging. Ideal for developers working on QGIS plugin code.
+category=Plugins
+hasProcessingProvider=False
+
+description=Developer‑oriented plugin that allows rapid reloading of any installed Python plugin without restarting QGIS. Includes a custom dockable interface with plugin selection, manual reload, optional auto‑reload on .py file changes, and a detailed log panel. Designed to streamline plugin development workflows by reducing downtime and improving iteration speed.
+
+icon=icon.png
+tags=plugin,reload,development,debug,python,tools
+
+author=Dr. Geol. Faustino Cetraro
+email=geol-faustino@libero.it
+homepage=https://github.com/drFaustino/AutoSavePlus
+repository=https://github.com/drFaustino/AutoSavePlus
+tracker=https://github.com/drFaustino/AutoSavePlus
+
+deprecated=False
+experimental=False
+qgisMinimumVersion=4.00
+qgisMaximumVersion=4.99
+
+version=1.0.0
+
+changelog=
+    Version 1.0.0:
+        - Initial public release generated.
