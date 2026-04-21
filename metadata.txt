@@ -11,9 +11,9 @@ tags=plugin,reload,development,debug,python,tools
 
 author=Dr. Geol. Faustino Cetraro
 email=geol-faustino@libero.it
-homepage=https://github.com/drFaustino/AutoSavePlus
-repository=https://github.com/drFaustino/AutoSavePlus
-tracker=https://github.com/drFaustino/AutoSavePlus
+homepage=https://github.com/drFaustino/DevPluginRefresher
+repository=https://github.com/drFaustino/DevPluginRefresher
+tracker=https://github.com/drFaustino/DevPluginRefresher
 
 deprecated=False
 experimental=False
