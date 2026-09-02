@@ -1,13 +1,13 @@
 [general]
 name=DevPluginRefresher
-about=Quickly reload any installed Python plugin with a custom dialog, auto‑reload options, and detailed logging. Ideal for developers working on QGIS plugin code.
+about=Quickly reload installed Python plugins in QGIS without restarting the application. Includes a dockable interface, plugin selection, manual reload, optional auto-reload on .py file changes, and detailed logging.
 category=Plugins
 hasProcessingProvider=False
 
-description=Developer‑oriented plugin that allows rapid reloading of any installed Python plugin without restarting QGIS. Includes a custom dockable interface with plugin selection, manual reload, optional auto‑reload on .py file changes, and a detailed log panel. Designed to streamline plugin development workflows by reducing downtime and improving iteration speed.
+description=Developer-oriented QGIS plugin designed to speed up Python plugin development by allowing installed plugins to be reloaded without restarting QGIS. Provides a dockable interface for selecting plugins, manually triggering reloads, enabling optional automatic reload when .py files change, and monitoring detailed reload activity through an integrated log panel. Ideal for developers who need fast iteration and reduced development downtime.
 
 icon=icon.png
-tags=plugin,reload,development,debug,python,tools
+tags=plugin,reload,development,debug,python,developer,tools,workflow
 
 author=Dr. Geol. Faustino Cetraro
 email=geol-faustino@libero.it
@@ -20,8 +20,27 @@ experimental=False
 qgisMinimumVersion=4.00
 qgisMaximumVersion=4.99
 
-version=1.0.0
+version=1.1.0
 
 changelog=
-    Version 1.0.0:
-        - Initial public release generated.
+    Version 1.1.0:
+        - Added persistent plugin selection across QGIS sessions.
+        - Added persistent auto-reload settings.
+        - Added automatic detection and monitoring of the selected plugin directory and Python files.
+        - Added support for reloading DevPluginRefresher itself.
+        - Added application icon support.
+        - Added English and Italian interface translations.
+        - Added automatic language selection based on the QGIS user locale.
+
+    Version 1.10.0:
+        - Initial public release generated with Plugin Builder Enterprise.
+        - Added custom dock widget with:
+        - Manual reload button
+        - Auto‑reload toggle for `.py` file changes
+        - Clear log button
+        - Detailed log panel
+        - Implemented persistent plugin selection across sessions.
+        - Implemented automatic detection of plugin directory and `.py` files.
+        - Added icon support.
+        - English‑only interface for maximum compatibility.
+        - Fully compatible with QGIS 4.x and Qt6.

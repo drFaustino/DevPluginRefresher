@@ -4,6 +4,15 @@ All notable changes to this project will be documented in this file.
 
 ---
 
+## 1.1.0 — Initial Release
+- Added persistent plugin selection across QGIS sessions.
+- Added persistent auto-reload settings.
+- Added automatic detection and monitoring of the selected plugin directory and Python files.
+- Added support for reloading DevPluginRefresher itself.
+- Added application icon support.
+- Added English and Italian interface translations.
+- Added automatic language selection based on the QGIS user locale.
+
 ## 1.0.0 — Initial Release
 - Added custom dock widget with:
   - Plugin selector
