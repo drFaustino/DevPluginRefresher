@@ -4,6 +4,8 @@ DevPluginRefresher is a developer-oriented QGIS plugin that allows rapid reloadi
 
 It provides a dockable interface for selecting plugins, manually triggering reloads, optionally monitoring .py file changes for automatic reloads, and viewing detailed activity logs. It is designed to reduce development downtime and make the QGIS plugin development workflow faster and more efficient.
 
+<img width="434" height="462" alt="img4" src="https://github.com/user-attachments/assets/92d76f00-b3ba-4f71-94db-7be549a3e110" />
+
 ---
 
 ## Features
